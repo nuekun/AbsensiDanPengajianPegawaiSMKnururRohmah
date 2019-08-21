@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/drawerGaji"
+            android:icon="@drawable/ic_gaji_24dp"
+            android:title="Detail Gaji" />
+        <item
+            android:id="@+id/drawerBeranda"
+            android:icon="@drawable/ic_jadwal_24dp"
+            android:title="Jadwal" />
+        <item
+            android:id="@+id/drawerKolega"
+            android:icon="@drawable/ic_kolega_24dp"
+            android:title="Kolega" />
+    </group>
+    <item
+        android:id="@+id/drawerStatus"
+        android:title="status ">
+        <menu>
+            <item
+                android:id="@+id/drawerCekIn"
+                android:icon="@drawable/ic_cek_in_24dp"
+                android:title="Cek In" />
+        </menu>
+    </item>
+</menu>

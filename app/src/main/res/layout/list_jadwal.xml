@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/holderJadwal"
+    android:layout_width="match_parent"
+    android:layout_height="95dp"
+    android:background="@drawable/list">
+
+    <TextView
+        android:id="@+id/txtJadwalMapel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="9dp"
+        android:text="mapel"
+        android:textColor="@color/browser_actions_bg_grey"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtJadwalMapelShadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="8dp"
+        android:text="mapel"
+        android:textColor="#0073FF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtJadwalMulai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtJadwalMapel"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/txtJadwalMapelShadow"
+        android:text="mulai"
+        android:textColor="@color/browser_actions_bg_grey"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txtJadwalMulai"
+        android:layout_alignBottom="@+id/txtJadwalMulai"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/txtJadwalMulai"
+        android:text="-"
+        android:textColor="#F7F2F2"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtJadwalBerakhir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txtJadwalMulai"
+        android:layout_alignBottom="@+id/txtJadwalMulai"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/textView3"
+        android:text="berakhir"
+        android:textColor="@color/browser_actions_bg_grey"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtJadwalKeterangan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtJadwalMapelShadow"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="5dp"
+        android:text="kelas"
+        android:textAllCaps="false"
+        android:textColor="@color/browser_actions_bg_grey"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txtJadwalHari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtJadwalMapel"
+        android:layout_alignBottom="@+id/txtJadwalMapel"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/txtJadwalMapel"
+        android:text="hari"
+        android:textAllCaps="false"
+        android:textColor="@color/browser_actions_bg_grey"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

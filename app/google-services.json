@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "609688261174",
+    "firebase_url": "https://absensi-dan-gaji.firebaseio.com",
+    "project_id": "absensi-dan-gaji",
+    "storage_bucket": "absensi-dan-gaji.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609688261174:android:7483e5e6eb901761",
+        "android_client_info": {
+          "package_name": "com.nue.absensi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609688261174-i0g58sfgd20c5m9dufdpcc9patieiptr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nue.absensi",
+            "certificate_hash": "b775160bc44bfe1d40c8520db6a1166e688378fb"
+          }
+        },
+        {
+          "client_id": "609688261174-u0jgsmavvnekok551sfuq6i5aq1sp08o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMn7kGiyq6BdVUxbd9GbtCkIrvBnWdWdA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609688261174-u0jgsmavvnekok551sfuq6i5aq1sp08o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
